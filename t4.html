@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/animation.css" />
+    <script src="js/javascript.js"></script>
+    <title>Tema 4</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <hr />
+        <div class="desk_menu">
+          <a href="index.html">Forside</a>
+          <a href="opgaver.html">Semesteropgaver</a>
+          <a href="cv.html">CV</a>
+        </div>
+        <hr />
+
+        <div class="burger-menu" onclick="toggleMenu()">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+
+        <div class="mobile-menu">
+          <a href="index.html">Forside</a>
+          <a href="opgaver.html">Semesteropgaver</a>
+          <a href="cv.html">CV</a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="tema_margin">
+        <div class="tema_grid">
+          <img class="mobilpynt" src="img/tema_pynt2.png" alt="" />
+          <h1 class="opg_over">Tema 4 <br />Grundlæggende animation</h1>
+          <div class="opg_links">
+            <a class="links" href="t2.html">Tema 2 grundlæggende web</a>
+            <a class="links" href="t3.html">Tema 3 grundlæggende UI/UX</a>
+            <a class="links" href="t4.html">Tema 4 grundlæggende animation</a>
+            <a class="links" href="t5.html">Tema 5 grundlæggende indhold</a>
+          </div>
+          <img src="img/tema_pynt.png" alt="" />
+        </div>
+      </div>
+      <h2 class="formaal">
+        I tema 4 grundlæggende animation var formålet at lære at bruge
+        JavaScript til kodning af dynamiske websites. Opgaven var at lave CSS
+        animationer med JavaScript til et lille computerspil, vi selv fandt på.
+        I tema 4 var læringsmålet at arbejde professionelt med formgivning af
+        grafiske elementer, hvor vi lærte om design af figurer og
+        baggrundsdesign. Her blev vi undervist i kompositionsteknikker,
+        skitseringsteknikker og viden om spildesign.
+      </h2>
+      <hr class="graa_hr" />
+      <hr class="orange_hr" />
+      <div class="grid_1">
+        <h2 class="h2_opg">Galactic Survival</h2>
+        <a
+          class="weblinks"
+          href="https://laurakyster.dk/spil/spil.html"
+          target="_blank"
+          >laurakyster.dk/spil</a
+        >
+      </div>
+      <div class="grid_t4">
+        <div class="t4pynt">
+          <img src="img/t4_pynt.svg" alt="" />
+        </div>
+        <div class="tema4tekst">
+          <p class="opg_tekst">
+            Spillet Galactic Survival er mit produkt i tema 4.
+            Computerspilsopgaven løste jeg ved at lave et simpelt spil, hvor
+            dårlige og gode elementer falder ned fra toppen af skærmen, og man
+            skal klikke på de dårlige for at få point. Man skal dog undlade at
+            klikke på de gode, da de giver liv, når de rammer bunden.
+          </p>
+          <p class="opg_tekst">
+            Jeg lavede mit design ud fra Space up stilen, som er en
+            underkategori af flat design. Jeg forsøgte at implementere træk ved
+            stilen i mit eget design, hvor jeg brugte solid drawing, baby-bias,
+            computergeneret og bløde former. Jeg tog også udgangspunkt i
+            farverne, med mørke farver i baggrunden, og nogle lyse og klare
+            farver i mine figurer og forgrund.
+          </p>
+          <p class="opg_tekst">
+            Jeg lærte at tegne og designe spilelementer i Adobe Illustrator ud
+            fra teori inden for UI elementer og kompositionsteknikker til
+            baggrunddesign. Herefter lærte jeg at benytte JavaScript i min kode,
+            for at få animationerne til at bevæge sig, musik til at spille, og
+            spillet til at opføre sig, som jeg havde udtænkt.
+          </p>
+          <p class="opg_tekst">
+            Derudover fik jeg erfaring med at udarbejde aktivitetsdiagram og
+            statemachine diagram til mit spil.
+          </p>
+          <div id="alien_sprite">
+            <img
+              class="alien"
+              src="img/alien.svg"
+              alt=""
+              width="60"
+              height="60"
+            />
+          </div>
+        </div>
+        <div class="t4pynt2">
+          <img src="img/t4_pynt.svg" alt="" />
+        </div>
+      </div>
+      <div class="grid_2-3">
+        <img class="spilimg" src="img/startskaerm_spil.png" alt="" />
+        <div class="t4_p">
+          <h3>Feedback til spil</h3>
+          <p>
+            Da Galactic Survival blev afprøvet af de andre studerende, fik jeg
+            lidt feedback af mit spil.
+          </p>
+          <p>
+            Feedbacken lød primært på, at spillet var for nemt. De dårlige
+            elementer faldt for langsomt, så det var let at klikke dem væk. Jeg
+            lavede hastigheden hurtigere for meteorer og endnu højere for
+            aliens, samt gjorde hastigheden for raket langsommere.
+          </p>
+          <p>
+            Jeg fik også tilbagemelding om at man hurtigt fik mange point, og
+            der kunne være en grænse for, hvor mange point man kan have. Dette
+            nåede jeg dog ikke at lave om, men det er et godt forslag. Jeg har
+            tænkt at man enten kunne sætte en grænse for pointtal og - eller -
+            en højere pointscore for at få level complete.
+          </p>
+        </div>
+      </div>
+      <div class="grid_1-2">
+        <img class="aktivitet" src="img/diagram2.svg" alt="" />
+        <div class="opg_tekst">
+          <div class="aktivitet_tekst">
+            <h3>Aktivitetsdiagrammet:</h3>
+            <p><strong>Tre dårlige ting:</strong></p>
+            <p>
+              -Klikker man på raket forsvinder den, og man får derved ikke et
+              ekstra liv <br />
+              -Undgår man at klikke på aliens og meteorer, rammer de planeten og
+              man mister et liv.
+            </p>
+            <p><strong>Tre gode ting:</strong></p>
+            <p>
+              -Undgår man at klikke på raket, rammer den planeten, og man får et
+              liv <br />-Hvis man klikker på meteor forsvinder de, og man får 1
+              point. <br />-Hvis man klikker på aliens forsvinder de, og man får
+              2 point.
+            </p>
+            <p><strong>Animation og bevægelse: </strong></p>
+            <p>
+              Aliens, meteorer og raketter falder ned fra oven i forskellige
+              hastigheder. <br />Aliens falder hurtigst, og giver derfor flest
+              point <br />Raketter falder langsomst, da de giver liv.
+            </p>
+            <p>
+              Der er forskellige forsvindanimationer og lydeffekter til hvert
+              element. Lydene er inspireret af sci-fi spil og film, aliens og
+              eksplosion. Animationerne er lavet i CSS og JavaScript.
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="grid_1-1-1">
+        <p class="footertekst">
+          EKSAMEN 1. SEMESTER <br />MULTIMEDIEDESIGNER KEA
+        </p>
+        <p class="laura">LAURA MARIE KYSTER</p>
+        <p class="aar">2024</p>
+      </div>
+    </footer>
+  </body>
+</html>
