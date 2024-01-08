@@ -22,6 +22,9 @@
   .h3_t3 {
     margin-left: 20%;
   }
+  .opg_tekst {
+    font-size: 20px;
+  }
   .opg_tekst_farvet {
     font-size: 17px;
     margin: 20px 20px;
@@ -134,6 +137,24 @@
   .mobil_t5_pynt {
     display: none;
   }
+  .pynt_forside {
+    transform: rotate(-35deg);
+    width: 60%;
+    margin-top: 10%;
+    margin-left: 30%;
+    position: absolute;
+  }
+  .p,
+  .r,
+  .t,
+  .f,
+  .l,
+  .i,
+  .o,
+  .o_2,
+  .o_3 {
+    font-size: 80px;
+  }
 }
 
 @media (max-width: 700px) {
@@ -231,6 +252,17 @@
   .bankeraat_video {
     max-width: 600px;
   }
+  .p,
+  .r,
+  .t,
+  .f,
+  .l,
+  .i,
+  .o,
+  .o_2,
+  .o_3 {
+    font-size: 50px;
+  }
 }
 
 .grid_1-1 a {
@@ -239,7 +271,7 @@
   font-family: skrift2;
 }
 .weblinks:hover {
-  scale: 1.2;
+  transform: scale(1.2);
   background-color: #fffaf5;
   border: solid #fb8500;
 }
@@ -273,10 +305,6 @@ img {
   width: 100%;
 }
 
-.pynt_forside {
-  transform: rotate(-35deg);
-  margin-top: 10%;
-}
 .forside_body main {
   margin-top: 10%;
 }
@@ -338,6 +366,15 @@ a {
   font-family: skrift2;
   display: inline-block;
   font-size: 18px;
+}
+.links::before {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border: solid #fb8500;
+  border-radius: 50%;
+  margin-right: 10px;
 }
 .links2 {
   padding: 3px 6px;
@@ -411,7 +448,7 @@ a {
 .opg_tekst {
   margin-left: 20%;
   margin-right: 20%;
-  margin-top: none;
+  margin-top: 0;
 }
 .opg_tekst_farvet {
   color: #4c4c4c;
@@ -433,10 +470,9 @@ a {
 .i {
   text-align: center;
   text-align: center;
-  font-size: 24px;
   color: #646464;
   font-family: skrift;
-  font-weight: bold;
+  font-weight: lighter;
 }
 .o,
 .o_2,
@@ -444,9 +480,7 @@ a {
   color: #fb8500;
   text-align: center;
   text-align: center;
-  font-size: 24px;
   font-family: skrift;
-  font-weight: bold;
 }
 .eksamen {
   text-align: left;
@@ -476,12 +510,13 @@ video {
   margin: auto;
 }
 .tema4tekst {
-  margin: fit-content;
+  width: fit-content;
+  margin: 0;
 }
 .aktivitet {
   margin-left: 10%;
   width: 80%;
-  margin-top: none;
+  margin-top: 0;
   margin-bottom: 10px;
 }
 .aktivitet_tekst {

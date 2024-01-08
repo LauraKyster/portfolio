@@ -10,8 +10,8 @@
     grid-template-columns: 1fr 1fr;
     margin-left: 10%;
     margin-right: 10%;
-    margin-bottom: none;
-    margin-top: none;
+    margin-bottom: 0;
+    margin-top: 0;
   }
   .grid_2-3 {
     display: grid;
@@ -106,6 +106,24 @@
     grid-template-columns: 3fr 1fr;
     position: relative;
   }
+  .grid-container {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 50px;
+    position: absolute;
+    left: 10%;
+  }
+  .pynt_portefol {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 5%;
+    margin-top: -7%;
+  }
+  .hr_for {
+    margin-top: 40%;
+    margin-bottom: 5%;
+  }
 }
 @media (max-width: 780px) {
   .burger-menu {
@@ -123,7 +141,7 @@
     transition: 0.4s;
   }
   .bar :hover {
-    scale: 1.2;
+    transform: scale(1.2);
     color: #fb8500;
   }
 
@@ -150,6 +168,11 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+  }
+  .grid-container {
+    display: grid;
+    grid-auto-flow: column;
+    margin-right: 30px;
   }
 
   .cv_overskrift {
@@ -194,6 +217,10 @@
   .cv_billeder {
     width: 100%;
   }
+  .hr_for {
+    margin-top: 10%;
+    margin-bottom: 25%;
+  }
 }
 
 .tema_margin {
@@ -210,11 +237,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-}
-
-.grid-container {
-  display: grid;
-  grid-auto-flow: column;
 }
 
 .forside_margin {
