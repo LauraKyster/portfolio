@@ -164,6 +164,10 @@
     color: #fffaf5;
     display: block;
   }
+  .mobile-menu a:hover {
+    color: #fffaf5;
+    background-color: #c76a00;
+  }
   .grid_1-3 {
     display: flex;
     align-items: center;

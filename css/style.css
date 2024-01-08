@@ -309,15 +309,20 @@ img {
   margin-top: 10%;
 }
 
-header a {
+.desk_menu a {
   color: #fb8500;
   text-decoration: none;
   font-family: skrift2;
   font-weight: bold;
+  background-color: #fefefe;
+  border-radius: 5px;
+  box-shadow: 8px 8px 8px -3px rgba(0, 0, 0, 0.3);
 }
-header a:hover {
-  color: #4c4c4c;
+.desk_menu a:hover {
+  background-color: #fb8500;
+  color: #fefefe;
 }
+
 nav {
   box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.3);
   padding: 5px;
