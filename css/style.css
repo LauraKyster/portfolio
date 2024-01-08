@@ -108,17 +108,18 @@
     font-family: skrift2;
   }
   .t5_baand {
-    max-width: 80px;
+    max-width: 70px;
     margin-top: 0; /* Juster disse marginer efter behov for at minimere afstanden */
     margin-bottom: 0;
     position: absolute;
-    top: -20%;
+    top: -10%;
     left: 85%;
   }
 
   .bankeraat_video {
     max-width: 100%; /* Ændret fra 1000px til 100% for at sikre responsivitet */
     width: 100%;
+    margin-bottom: 50px;
     height: auto;
   }
   .mobil_t5_pynt {
