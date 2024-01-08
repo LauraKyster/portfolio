@@ -73,6 +73,9 @@
     display: inline-block;
     font-size: 20px;
   }
+  .t5_links {
+    margin-right: 20%;
+  }
   .ud,
   .erf {
     padding: 20px; /* Tilføj lidt indrykning for at gøre det mere læsbart */
@@ -103,6 +106,23 @@
   .cv_liste {
     font-size: 25px;
     font-family: skrift2;
+  }
+  .t5_baand {
+    max-width: 80px;
+    margin-top: 0; /* Juster disse marginer efter behov for at minimere afstanden */
+    margin-bottom: 0;
+    position: absolute;
+    top: -20%;
+    left: 85%;
+  }
+
+  .bankeraat_video {
+    max-width: 100%; /* Ændret fra 1000px til 100% for at sikre responsivitet */
+    width: 100%;
+    height: auto;
+  }
+  .mobil_t5_pynt {
+    display: none;
   }
 }
 
@@ -186,6 +206,12 @@
   .cv_liste {
     font-size: 20px;
     font-family: skrift2;
+  }
+  .t5_baand {
+    display: none;
+  }
+  .bankeraat_video {
+    max-width: 600px;
   }
 }
 
@@ -298,7 +324,7 @@ a {
 .links2 {
   padding: 3px 6px;
   margin: 8px;
-  margin-left: 10%;
+
   background-color: #f0f0f0;
   color: #fb8500;
   text-decoration: none;
@@ -326,6 +352,7 @@ a {
   transform: scale(1.1);
   color: #4c4c4c;
   background-color: #fffaf5;
+  border: solid #f0f0f0;
   box-shadow: none;
 }
 

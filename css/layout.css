@@ -101,6 +101,11 @@
   .spilimg {
     grid-column: 2/3;
   }
+  .t5_grid {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    position: relative;
+  }
 }
 @media (max-width: 780px) {
   .burger-menu {
