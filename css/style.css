@@ -282,6 +282,19 @@
     margin-right: 15px;
     margin-left: 15px;
   }
+  .bank_img {
+    margin-left: 80px;
+  }
+}
+
+.marg_t5,
+.bank_img {
+  margin-top: 30px;
+  margin-right: auto;
+}
+
+.bank_img {
+  width: 70%;
 }
 
 .grid_1-1 a {
