@@ -102,7 +102,7 @@
 
   dt,
   dd {
-    margin: 0; /* Fjern standard margin på dt og dd-elementerne */
+    margin: 0;
     font-family: skrift2;
     font-size: 20px;
   }
@@ -112,7 +112,7 @@
   }
 
   dt {
-    font-weight: bold; /* Gør dt-elementerne federe */
+    font-weight: bold;
     color: #4c4c4c;
   }
   .cv_liste {
@@ -121,7 +121,7 @@
   }
   .t5_baand {
     max-width: 70px;
-    margin-top: 0; /* Juster disse marginer efter behov for at minimere afstanden */
+    margin-top: 0;
     margin-bottom: 0;
     position: absolute;
     top: -10%;
@@ -129,7 +129,7 @@
   }
 
   .bankeraat_video {
-    max-width: 100%; /* Ændret fra 1000px til 100% for at sikre responsivitet */
+    max-width: 100%;
     width: 100%;
     margin-bottom: 50px;
     height: auto;
@@ -145,10 +145,13 @@
     position: absolute;
   }
   .cv_billeder {
-    margin: auto;
-    margin-top: 40px;
-    width: 50%;
-    border: 2px solid #fb8500;
+    margin-left: 30%;
+    width: 45%;
+    margin-top: 20px;
+    background-color: #6464642f;
+    border-radius: 20px;
+    border-bottom: 3px solid #fb8500;
+    box-shadow: 0 8px 8px -8px rgba(0, 0, 0, 0.3);
   }
   .p,
   .r,
@@ -218,12 +221,18 @@
     font-family: skrift;
     display: inline-block;
   }
-  .pil {
-    display: none;
+  .cv_billeder {
+    margin-right: 40px;
+    margin-top: 0;
+    background-color: #6464642f;
+    border-radius: 20px;
+    border-bottom: 3px solid #fb8500;
+    box-shadow: 0 8px 8px -8px rgba(0, 0, 0, 0.3);
   }
+
   .ud,
   .erf {
-    padding: 10px; /* Tilføj lidt indrykning for at gøre det mere læsbart */
+    padding: 10px;
     margin-left: 70px;
   }
 
@@ -235,7 +244,7 @@
 
   dt,
   dd {
-    margin: 0; /* Fjern standard margin på dt og dd-elementerne */
+    margin: 0;
     font-family: skrift2;
     font-size: 15px;
   }
@@ -245,7 +254,7 @@
   }
 
   dt {
-    font-weight: bold; /* Gør dt-elementerne federe */
+    font-weight: bold;
     color: #4c4c4c;
   }
   .cv_liste {
@@ -268,6 +277,10 @@
   .o_2,
   .o_3 {
     font-size: 50px;
+  }
+  .mobil_margin {
+    margin-right: 15px;
+    margin-left: 15px;
   }
 }
 
@@ -297,7 +310,7 @@ h3 {
 
 .forside_body {
   background: linear-gradient(to right, #fffaf5 85%, #646464 85%);
-  margin: 0; /* Fjerner standardmargin fra body */
+  margin: 0;
 }
 body {
   background-color: #fffaf5;
@@ -365,7 +378,7 @@ a {
 .links {
   margin: 10px;
   margin-left: 60px;
-  padding: 5px 10px; /* Juster padding for at bestemme afstanden mellem teksten og kanten af baggrundsfarven */
+  padding: 5px 10px;
   background-color: #f0f0f0;
   color: #fb8500;
   text-decoration: none;
