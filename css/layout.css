@@ -43,7 +43,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: left; /* Ændret til venstre-justering */
+    text-align: left;
   }
   .tema_grid {
     display: grid;
@@ -81,10 +81,6 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    margin: auto;
-    margin-top: 40px;
-    width: 50%;
-    border: 3px solid #fb8500;
   }
 
   .cv_baand {

@@ -144,6 +144,12 @@
     margin-left: 30%;
     position: absolute;
   }
+  .cv_billeder {
+    margin: auto;
+    margin-top: 40px;
+    width: 50%;
+    border: 2px solid #fb8500;
+  }
   .p,
   .r,
   .t,
@@ -271,8 +277,7 @@
   font-family: skrift2;
 }
 .weblinks:hover {
-  transform: scale(1.2);
-  background-color: #fffaf5;
+  transform: scale(1.1);
   border: solid #fb8500;
 }
 .dt2 {
@@ -365,7 +370,7 @@ a {
   color: #fb8500;
   text-decoration: none;
   text-align: center;
-  box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 7px 7px -7px rgba(0, 0, 0, 0.3);
   border-radius: 5px;
   transition: background-color 0.3s ease;
   font-family: skrift2;
@@ -381,38 +386,10 @@ a {
   border-radius: 50%;
   margin-right: 10px;
 }
-.links2 {
-  padding: 3px 6px;
-  margin: 8px;
-
-  background-color: #f0f0f0;
-  color: #fb8500;
-  text-decoration: none;
-  box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.3);
-  border-radius: 3px;
-  transition: background-color 0.3s ease;
-  font-family: skrift2;
-  font-size: 24px;
-  display: inline-block;
-  position: relative;
-  font-weight: bold;
-}
-
-.links2::before {
-  content: "";
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  border: solid #fb8500;
-  border-radius: 50%;
-  margin-right: 10px;
-}
 
 .opg_links a:hover {
-  transform: scale(1.1);
   color: #4c4c4c;
-  background-color: #fffaf5;
-  border: solid #f0f0f0;
+  border: solid #fb8500;
   box-shadow: none;
 }
 
